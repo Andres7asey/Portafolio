@@ -1,0 +1,30 @@
+@import "./nav-bar.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./button.css";
+@import "./button-icon.css";
+@import "./social.css";
+@import "./project.css";
+@import "./card.css";
+@import "./shared.css";
+@import "./certificated.css";
+
+:root{
+
+    --fontBase : Poppins, sans-serif;
+    --fontSecondary: Oxygen, sans-serif;
+    --headLine1: bold 95px/154px var(--fontBase);
+    --headLine2: bold 59px/95px var(--fontBase);
+    --headLine3: bold 48px/78px var(--fontBase);
+    --headLine4: bold 34px/55px var(--fontBase);
+    --headLine5: bold 24px/39px var(--fontBase);
+    --coment: 34px/55px var(--fontSecondary);
+    --coment2: 24px/39px var(--fontBase);
+    --body1: 16px/26px var(--fontBase);
+    --button: bold 14px/23px var(--fontBase);
+    --primaryColor:black;
+    --secundaryColor:rgb(36, 164, 214);
+    --tertiaryColor: white;
+    --deleteMargin: 0;
+
+}

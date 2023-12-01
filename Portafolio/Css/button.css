@@ -1,0 +1,30 @@
+.button{
+    background-color: white;
+    color: var(--primarycolor);
+    font: var(--button);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    text-transform: uppercase;
+    border-radius: 90px;
+    border: solid 2px var(--primarycolor);
+    box-shadow: -4px 4px 14px black;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button.is-secondary{
+    background-color: unset;
+    border: 2px solid var(--primarycolor);
+}
+
+.button:hover{
+    background-color: var(--secundaryColor);
+    transition: -4s ease all;
+    color: black;
+}
